@@ -1,0 +1,9 @@
+ncelab(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+four_bit_adder dut(A,B,C0,S,C4);
+                             |
+ncelab: *W,CUVMPW (./adder_test.v,7|29): port sizes differ in port connection (1/4).
+full_adder fA3(A[3],B[3],C3,S[3],C4);
+                                  |
+ncelab: *W,CUVMPW (./adder.v,10|34): port sizes differ in port connection (4/1).
+ncelab: Memory Usage - 49.9M program + 32.7M data = 82.6M total (Peak 87.9M)
+ncelab: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.2s, 10.3% cpu)
